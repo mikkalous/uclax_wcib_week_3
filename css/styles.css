@@ -1,0 +1,58 @@
+body {
+  font-family: Futura, sans-serif; }
+  body img {
+    width: 100%; }
+
+.box {
+  float: left;
+  width: auto;
+  height: auto;
+  clear: left; }
+
+.pic {
+  float: left;
+  width: 50%;
+  height: 50%;
+  clear: left;
+  margin: 60px; }
+
+h1 {
+  margin: 50px;
+  color: #996515; }
+
+h2 {
+  margin: 30px;
+  color: #36441F; }
+
+img {
+  height: 100%;
+  width: 100%; }
+
+p {
+  font-size: 1.25em;
+  color: #E49B0F;
+  background-image: none;
+  background-color: transparent;
+  margin: 20px 10px 40px 50px; }
+
+.cleared {
+  clear: left; }
+
+section {
+  font-size: 1em;
+  color: #F5DEB3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
+article {
+  font-size: 1em;
+  color: #593E20;
+  flex: 1 200px; }
+
+.logo {
+  background-image: url("/img/sq_tomato.png"), url("/img/sq_orange.png");
+  background-position: top right, bottom left;
+  background-repeat: no-repeat;
+  background-color: transparent; }
